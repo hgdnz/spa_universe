@@ -18,6 +18,8 @@ export class Router {
     const { pathname } = window.location
     const route = this.routes[pathname] || this.routes[404]
 
+    console.log(route)
+
     fetch(route)
       .then(data => data.text())
       .then(html => {
@@ -25,7 +27,6 @@ export class Router {
       })
 
     this.backgroundColor(pathname)
-    
   }
 
   controlHome() {
@@ -65,5 +66,3 @@ export class Router {
     }
   }
 }
-
-
