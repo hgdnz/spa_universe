@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./img/mountains-universe-1\ 1.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* body.bgHome {
+  background-image: url(./img/mountains-universe-1\ 1.png);
+} */
+
+body.bgUniverse {
+  background-image: url(./img/universe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.bgExplorer {
+  background-image: url(./img/explorer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 7.2rem;
+  margin-top: 4rem;
+  gap: 3.2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+}
+
+nav a {
+  color: #c4c4cc;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
+  color: #e1e1e6;
+  width: 39.9rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home a {
+  width: 19.5rem;
+  height: 4.8rem;
+  border-radius: 5px;
+  border: 2px solid #e1e1e6;
+  color: #e1e1e6;
+  margin-top: 2.4rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.5rem 3.9rem;
+  list-style: none;
+}
+
+.universe div {
+  margin-left: 10.2rem;
+  margin-top: 10.3rem;
+}
+
+.universe h1 {
+  color: white;
+  width: 39.9rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.universe p {
+  font-family: 'Roboto', sans-serif;
+  color: #e1e1e6;
+  width: 64.8rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+
+  margin-top: 1.6rem;
+}
+
+.explorer div {
+  margin-left: 10.2rem;
+  margin-top: 10.3rem;
+}
+
+.explorer h1 {
+  color: white;
+  width: 39.9rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.explorer p {
+  font-family: 'Roboto', sans-serif;
+  color: #e1e1e6;
+  width: 64.8rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+
+  margin-top: 1.6rem;
+}
+
+nav a:nth-child(4) {
+  display: none;
+}
+
+/* nav a:hover {
+  font-weight: 700;
+  color: white;
+} */
+
+.focus {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: bold;
+}
